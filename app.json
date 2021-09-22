@@ -1,9 +1,9 @@
 {
-  "name": "ShadowMusic",
-  "logo": "https://telegra.ph/file/2adf03bd079a0243aafac.png",
+  "name": "GalaxyMusic",
+  "logo": "https://telegra.ph/file/cbb29d263803736505c47.png",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamOfShadow/ShadowMusic",
+  "repository": "https://github.com/TeamGalaxyFriends/GalaxyMusic",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -27,27 +27,27 @@
     "BOT_USERNAME": {
       "description": "Your bot's username without @",
       "required": true,
-      "value": "Mr_Shadow_robot"
+      "value": "GalaxyMusicBot"
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "Shadow"
+      "value": "Galaxy Music"
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "ShadowBotSupport"
+      "value": "GalaxyFriendsTeam"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "ShadowMusic"
+      "value": "GalaxyMusic"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true,
-      "value": "Shadow_Helper"
+      "value": "Galaxy_Helper"
     },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
@@ -62,7 +62,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "ShadowBotUpdates"
+      "value": "TeamGalaxyFriends"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -80,7 +80,7 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true,
-      "value": "1041727415 1578642178"
+      "value": "1041727415"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
