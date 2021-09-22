@@ -19,10 +19,10 @@ from asyncio import QueueEmpty
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from ShadowMusic.function.admins import set
-from ShadowMusic.helpers.decorators import authorized_users_only, errors
-from ShadowMusic.services.callsmusic import callsmusic
-from ShadowMusic.services.queues import queues
+from GalaxyMusic.function.admins import set
+from GalaxyMusic.helpers.decorators import authorized_users_only, errors
+from GalaxyMusic.services.callsmusic import callsmusic
+from GalaxyMusic.services.queues import queues
 
 
 @Client.on_message(
@@ -130,7 +130,7 @@ async def skip(_, message: Message):
     await message.reply_text(f"- Skipped **{skip[0]}**\n- Now Playing **{qeue[0][0]}**")
 
 
-@Client.on_message(filters.command("channeladmincache"))
+@Client.on_message(filters.command("channeladmincache", "cadmincache"))
 @errors
 async def admincache(client, message: Message):
     try:
