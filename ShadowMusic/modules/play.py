@@ -1,4 +1,4 @@
-# Shadow Music (Telegram bot project)
+# Galaxy Music (Telegram bot project)
 # Copyright (C) 2021 Deshadeeth Thisarana
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -29,22 +29,22 @@ from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
-from ShadowMusic.config import ARQ_API_KEY
-from ShadowMusic.config import BOT_NAME as bn
-from ShadowMusic.config import DURATION_LIMIT
-from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
-from ShadowMusic.config import que
-from ShadowMusic.function.admins import admins as a
-from ShadowMusic.helpers.admins import get_administrators
-from ShadowMusic.helpers.channelmusic import get_chat_id
-from ShadowMusic.helpers.decorators import authorized_users_only
-from ShadowMusic.helpers.filters import command, other_filters
-from ShadowMusic.helpers.gets import get_file_name
-from ShadowMusic.services.callsmusic import callsmusic
-from ShadowMusic.services.callsmusic import client as USER
-from ShadowMusic.services.converter.converter import convert
-from ShadowMusic.services.downloaders import youtube
-from ShadowMusic.services.queues import queues
+from GalaxyMusic.config import ARQ_API_KEY
+from GalaxyMusic.config import BOT_NAME as bn
+from GalaxyMusic.config import DURATION_LIMIT
+from GalaxyMusic.config import UPDATES_CHANNEL as updateschannel
+from GalaxyMusic.config import que
+from GalaxyMusic.function.admins import admins as a
+from GalaxyMusic.helpers.admins import get_administrators
+from GalaxyMusic.helpers.channelmusic import get_chat_id
+from GalaxyMusic.helpers.decorators import authorized_users_only
+from GalaxyMusic.helpers.filters import command, other_filters
+from GalaxyMusic.helpers.gets import get_file_name
+from GalaxyMusic.services.callsmusic import callsmusic
+from GalaxyMusic.services.callsmusic import client as USER
+from GalaxyMusic.services.converter.converter import convert
+from GalaxyMusic.services.downloaders import youtube
+from GalaxyMusic.services.queues import queues
 from youtube_search import YoutubeSearch
 
 aiohttpsession = aiohttp.ClientSession()
