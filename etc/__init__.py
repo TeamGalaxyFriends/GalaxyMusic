@@ -1,4 +1,4 @@
-# ShadowMusic (Telegram bot project)
+# GalaxyMusic (Telegram bot project)
 # Copyright (C) 2021 DeshadeethThisarana & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
