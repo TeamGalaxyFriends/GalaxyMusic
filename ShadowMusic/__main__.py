@@ -1,4 +1,4 @@
-# ShadowMusic (Telegram bot project)
+# GalaxyMusic (Telegram bot project)
 # Copyright (C) 2021 DeshadeethThisarana & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from ShadowMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from ShadowMusic.services.callsmusic import run
+from GalaxyMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from GalaxyMusic.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="ShadowMusic.modules"),
+    plugins=dict(root="GalaxyMusic.modules"),
 )
 
 bot.start()
