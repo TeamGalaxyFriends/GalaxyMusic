@@ -1,10 +1,10 @@
 Pyrogram
 TgCrypto
 pytgcalls
+requests
 python-dotenv
 youtube_dl
 youtube_search_python
-requests
 aiohttp
 aiofiles
 asyncio
