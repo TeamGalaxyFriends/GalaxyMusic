@@ -1,2 +1,2 @@
-# Shadow Music (Telegram Bot)
+# Galaxy Music (Telegram Bot)
 # 2020-2021 @DeshadeethThisarana
