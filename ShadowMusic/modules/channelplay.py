@@ -22,6 +22,8 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from youtube_search import YoutubeSearch
+
 from GalaxyMusic.config import BOT_NAME as bn
 from GalaxyMusic.config import DURATION_LIMIT
 from GalaxyMusic.config import UPDATES_CHANNEL as updateschannel
@@ -34,8 +36,6 @@ from GalaxyMusic.services.callsmusic import client as USER
 from GalaxyMusic.services.converter.converter import convert
 from GalaxyMusic.services.downloaders import youtube
 from GalaxyMusic.services.queues import queues
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.modules.play import arq, cb_admin_check, generate_cover
 
 chat_id = None
