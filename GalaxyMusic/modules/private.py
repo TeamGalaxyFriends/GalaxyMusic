@@ -18,6 +18,7 @@ import logging
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+
 from GalaxyMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
@@ -25,7 +26,6 @@ from GalaxyMusic.config import (
     SUPPORT_GROUP,
     UPDATES_CHANNEL,
 )
-
 from GalaxyMusic.modules.msg import Messages as tr
 
 logging.basicConfig(level=logging.INFO)
