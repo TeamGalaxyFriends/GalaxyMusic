@@ -29,7 +29,7 @@ file.write(response.content)
 file.close()
 
 bot = Bot(
-    ":memory:",
+    "GalaxyMusic",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
