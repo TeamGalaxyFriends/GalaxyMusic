@@ -35,13 +35,13 @@ from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
 from ShadowMusic.config import que
 from ShadowMusic.function.admins import admins as a
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.helpers.admins import get_administrators
 from ShadowMusic.helpers.channelmusic import get_chat_id
 from ShadowMusic.helpers.decorators import authorized_users_only
 from ShadowMusic.helpers.filters import command, other_filters
 from ShadowMusic.helpers.gets import get_file_name
+from youtube_search import YoutubeSearch
+
 from ShadowMusic.services.callsmusic import callsmusic
 from ShadowMusic.services.callsmusic import client as USER
 from ShadowMusic.services.converter.converter import convert

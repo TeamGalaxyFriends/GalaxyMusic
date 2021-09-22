@@ -26,11 +26,11 @@ from ShadowMusic.config import BOT_NAME as bn
 from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
 from ShadowMusic.config import que
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.helpers.admins import get_administrators
 from ShadowMusic.helpers.decorators import authorized_users_only
 from ShadowMusic.helpers.gets import get_file_name
+from youtube_search import YoutubeSearch
+
 from ShadowMusic.modules.play import arq, cb_admin_check, generate_cover
 from ShadowMusic.services.callsmusic import callsmusic
 from ShadowMusic.services.callsmusic import client as USER

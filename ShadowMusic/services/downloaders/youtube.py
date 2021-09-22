@@ -19,9 +19,8 @@
 from os import path
 
 from ShadowMusic.config import DURATION_LIMIT
-from youtube_dl import YoutubeDL
-
 from ShadowMusic.helpers.errors import DurationLimitError
+from youtube_dl import YoutubeDL
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
