@@ -22,12 +22,12 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.config import BOT_NAME as bn
 from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
 from ShadowMusic.config import que
+from youtube_search import YoutubeSearch
+
 from ShadowMusic.helpers.admins import get_administrators
 from ShadowMusic.helpers.decorators import authorized_users_only
 from ShadowMusic.helpers.gets import get_file_name

@@ -32,10 +32,10 @@ import youtube_dl
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message
+from ShadowMusic.config import DURATION_LIMIT
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.modules.play import arq
 
 

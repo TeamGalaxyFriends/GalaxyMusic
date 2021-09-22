@@ -18,7 +18,6 @@ import logging
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-
 from ShadowMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
@@ -26,6 +25,7 @@ from ShadowMusic.config import (
     SUPPORT_GROUP,
     UPDATES_CHANNEL,
 )
+
 from ShadowMusic.modules.msg import Messages as tr
 
 logging.basicConfig(level=logging.INFO)

@@ -18,9 +18,9 @@
 
 from os import path
 
+from ShadowMusic.config import DURATION_LIMIT
 from youtube_dl import YoutubeDL
 
-from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
