@@ -124,7 +124,8 @@ Don't edit this part
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork GalaxyMusic won't exist. 
+This bot is based on the original work done by [InukaAsith](https://github.com/InukaAsith) & [Rojserbest](http://github.com/rojserbest). Without his hardwork GalaxyMusic won't exist.
+
 GalaxyMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @GalaxyMusicBot users
 
 #### Contributor
