@@ -1,11 +1,11 @@
-<h1 align="centre">SHADOW MUSIC</h1>
+<h1 align="center">GALAXY MUSIC</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@Mr_Shadow_Robot](https://t.me/Mr_Shadow_robot)
+### Available on telegram as [@GalaxyMusicBot](https://t.me/GalaxyMusicBot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/66822dc08454b021fd2cf.png">
+  <img src="https://telegra.ph/file/cbb29d263803736505c47.png">
 </p>
 
 <h2> Features 🔥 </h2>
@@ -26,7 +26,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamOfShadow/ShadowMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamGalaxyFriends/GalaxyMusic)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -35,13 +35,13 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/deshadeeth-thisarana/ShadowMusic
-$ cd ShadowMusic
+$ git clone https://github.com/TeamGalaxyFriends/GalaxyMusic
+$ cd GalaxyMusic
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -r requirements.txt
 # Fork This Repo and fill local.env and config.py both with your own values.Then Start The Bot
-$ python3 -m ShadowMusic
+$ python3 -m GalaxyMusic
 ```
 
 ### Commands for Group 🛠
@@ -91,8 +91,8 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add [@Mr_Shadow_Robot](https://t.me/Mr_Shadow_robot) as Channel admin with full perms
- 4. Add helper to channel ([@Shadow_Helper](https://t.me/Shadow_Helper))
+ 3. Add [@GalaxyMusicBot](https://t.me/GalaxyMusicBot) as Channel admin with full perms
+ 4. Add helper to channel ([@Galaxy_Helper](https://t.me/Galaxy_Helper))
  5. Simply send commands in your group.
 
 ### Commands for Sudo Users ⚔️
@@ -108,6 +108,8 @@ If you donlt like to play in linked channel:
 ### Credits
 Don't edit this part
 
+- [Inuka Asith](https://github.com/InukaAsith)
+- [Prabhasha](https://github.com/Prabhasha-p)
 - [Technical-Hunter](https://github.com/Technical-Hunter)
 - [Rojserbest](http://github.com/rojserbest)
 - [Wrench](https://github.com/EverythingSuckz/)
@@ -122,17 +124,10 @@ Don't edit this part
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Shadow Music won't exist. 
-Shadow Music is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @Mr_Shadow_robot users
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork GalaxyMusic won't exist. 
+GalaxyMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @GalaxyMusicBot users
 
 #### Contributors
 - [Deshadeeth Thisarana](https://github.com/deshadeeth-thisarana): Owner
-- [Inuka Asith](https://github.com/InukaAsith): Owner
-- [Prabhasha](https://github.com/Prabhasha-p): Dev
-- [Thilina](https://github.com/ThilinaWeerasekara2003): Dev
-- [Damantha Jasinghe](https://github.com/Damantha126): Dev
-- [GD Hiruna](https://github.com/hirunaofficial): Dev
-- [Uvindu Bro](https://github.com/UvinduBro): Dev
-
 
 ### [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
