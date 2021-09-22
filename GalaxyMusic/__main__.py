@@ -1,6 +1,6 @@
 # GalaxyMusic (Telegram bot project)
 
-# Copyright (C) 2021 DeshadeethThisarana 
+# Copyright (C) 2021 DeshadeethThisarana
 # Copyright (C) 2021 Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
@@ -33,7 +33,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="GalaxyMusic.modules")
+    plugins=dict(root="GalaxyMusic.modules"),
 )
 
 bot.start()
