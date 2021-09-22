@@ -44,9 +44,8 @@ from ShadowMusic.services.callsmusic import callsmusic
 from ShadowMusic.services.callsmusic import client as USER
 from ShadowMusic.services.converter.converter import convert
 from ShadowMusic.services.downloaders import youtube
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.services.queues import queues
+from youtube_search import YoutubeSearch
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
