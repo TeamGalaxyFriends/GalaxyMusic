@@ -24,7 +24,7 @@ class Messages:
 🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.
 
 ✅ Send me /help for more info."""
-    
+
     HELP_MSG = [
         ".",
         f"""
