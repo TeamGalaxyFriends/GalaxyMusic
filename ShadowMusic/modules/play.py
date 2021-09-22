@@ -34,9 +34,9 @@ from ShadowMusic.config import BOT_NAME as bn
 from ShadowMusic.config import DURATION_LIMIT
 from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
 from ShadowMusic.config import que
+from ShadowMusic.function.admins import admins as a
 from youtube_search import YoutubeSearch
 
-from ShadowMusic.function.admins import admins as a
 from ShadowMusic.helpers.admins import get_administrators
 from ShadowMusic.helpers.channelmusic import get_chat_id
 from ShadowMusic.helpers.decorators import authorized_users_only
