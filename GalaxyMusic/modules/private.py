@@ -1,4 +1,4 @@
-# Shadow Music (Telegram bot project )
+# Galaxy Music (Telegram bot project )
 # Copyright (C) 2021 DeshadeethThisarana
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@ import logging
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from ShadowMusic.config import (
+from GalaxyMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
     SOURCE_CODE,
@@ -26,7 +26,7 @@ from ShadowMusic.config import (
     UPDATES_CHANNEL,
 )
 
-from ShadowMusic.modules.msg import Messages as tr
+from GalaxyMusic.modules.msg import Messages as tr
 
 logging.basicConfig(level=logging.INFO)
 
