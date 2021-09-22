@@ -1,4 +1,4 @@
-# Shadow Music (Telegram bot project )
+# Galaxy Music (Telegram bot project )
 # Copyright (C) 2021 Deshadeeth Thisarana
 
 # This program is free software: you can redistribute it and/or modify
@@ -19,8 +19,8 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from ShadowMusic.config import SUDO_USERS
-from ShadowMusic.services.callsmusic.callsmusic import client as USER
+from GalaxyMusic.config import SUDO_USERS
+from GalaxyMusic.services.callsmusic.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["broadcast"]))
