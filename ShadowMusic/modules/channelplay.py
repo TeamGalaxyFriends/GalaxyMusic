@@ -1,4 +1,4 @@
-# Shadow Music (Telegram bot project)
+# Galaxy Music (Telegram bot project)
 # Copyright (C) 2021  Deshadeeth Thisarana
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -22,18 +22,18 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from ShadowMusic.config import BOT_NAME as bn
-from ShadowMusic.config import DURATION_LIMIT
-from ShadowMusic.config import UPDATES_CHANNEL as updateschannel
-from ShadowMusic.config import que
-from ShadowMusic.helpers.admins import get_administrators
-from ShadowMusic.helpers.decorators import authorized_users_only
-from ShadowMusic.helpers.gets import get_file_name
-from ShadowMusic.services.callsmusic import callsmusic
-from ShadowMusic.services.callsmusic import client as USER
-from ShadowMusic.services.converter.converter import convert
-from ShadowMusic.services.downloaders import youtube
-from ShadowMusic.services.queues import queues
+from GalaxyMusic.config import BOT_NAME as bn
+from GalaxyMusic.config import DURATION_LIMIT
+from GalaxyMusic.config import UPDATES_CHANNEL as updateschannel
+from GalaxyMusic.config import que
+from GalaxyMusic.helpers.admins import get_administrators
+from GalaxyMusic.helpers.decorators import authorized_users_only
+from GalaxyMusic.helpers.gets import get_file_name
+from GalaxyMusic.services.callsmusic import callsmusic
+from GalaxyMusic.services.callsmusic import client as USER
+from GalaxyMusic.services.converter.converter import convert
+from GalaxyMusic.services.downloaders import youtube
+from GalaxyMusic.services.queues import queues
 from youtube_search import YoutubeSearch
 
 from ShadowMusic.modules.play import arq, cb_admin_check, generate_cover
@@ -378,7 +378,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor channel  first</b>",
+                        "<b>Add me as admin of yor channel first</b>",
                     )
                     return
 
