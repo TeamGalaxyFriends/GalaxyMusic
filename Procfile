@@ -1,1 +1,1 @@
-worker: python3 -m ShadowMusic
+worker: python3 -m GalaxyMusic
