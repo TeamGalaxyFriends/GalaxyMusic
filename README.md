@@ -1,4 +1,4 @@
-<h1 align="center">GALAXY MUSIC</h1>
+<h1 align="center">GALAXY MUSIC 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
