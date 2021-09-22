@@ -17,10 +17,10 @@
 # Modified by DeshadeethThisarana
 
 from os import path
-
-from ShadowMusic.config import DURATION_LIMIT
-from ShadowMusic.helpers.errors import DurationLimitError
 from youtube_dl import YoutubeDL
+
+from GalaxyMusic.config import DURATION_LIMIT
+from GalaxyMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
