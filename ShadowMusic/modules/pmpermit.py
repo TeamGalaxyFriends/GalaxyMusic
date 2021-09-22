@@ -17,7 +17,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from ShadowMusic.config import PMPERMIT, SUDO_USERS
-
 from ShadowMusic.services.callsmusic import client as USER
 
 PMSET = True

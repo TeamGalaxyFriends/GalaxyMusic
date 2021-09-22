@@ -15,6 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from typing import Dict
+
 from pytgcalls import GroupCall
 
 from GalaxyMusic.services.callsmusic import client

@@ -40,10 +40,10 @@ from ShadowMusic.helpers.channelmusic import get_chat_id
 from ShadowMusic.helpers.decorators import authorized_users_only
 from ShadowMusic.helpers.filters import command, other_filters
 from ShadowMusic.helpers.gets import get_file_name
-from youtube_search import YoutubeSearch
-
 from ShadowMusic.services.callsmusic import callsmusic
 from ShadowMusic.services.callsmusic import client as USER
+from youtube_search import YoutubeSearch
+
 from ShadowMusic.services.converter.converter import convert
 from ShadowMusic.services.downloaders import youtube
 from ShadowMusic.services.queues import queues
