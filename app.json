@@ -15,7 +15,7 @@
   ],        
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "Pyrogram string session",
       "required": true,
       "value": ""
     },
