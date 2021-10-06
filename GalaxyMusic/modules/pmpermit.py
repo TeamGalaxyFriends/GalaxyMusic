@@ -16,7 +16,6 @@
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-
 from GalaxyMusic.config import PMPERMIT, SUDO_USERS
 from GalaxyMusic.services.callsmusic import client as USER
 
@@ -36,7 +35,6 @@ async def pmPermit(client: USER, message: Message):
                 "Hi there, This is the music assistant service of @Mr_Shadow_robot\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n If you have any questions please join @ShadowBotUpdates",
             )
             return
-
 
 @Client.on_message(filters.command(["/pmpermit"]))
 async def bye(client: Client, message: Message):
