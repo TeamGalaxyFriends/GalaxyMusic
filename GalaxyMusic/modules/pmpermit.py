@@ -41,7 +41,6 @@ If you are sending a message here it means admin will see your message and join 
 If you have any questions please join @GalaxyFriendsTeam
 """
 
-
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
     if PMPERMIT == "ENABLE":
