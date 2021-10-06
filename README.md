@@ -126,7 +126,7 @@ Don't edit this part
 
 This bot is based on the original work done by [InukaAsith](https://github.com/InukaAsith) & [Rojserbest](http://github.com/rojserbest). Without his hardwork GalaxyMusic won't exist.
 
-GalaxyMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @GalaxyMusicBot users
+GalaxyMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of [@GalaxyMusicBot](t.me/GalaxyMusicBot) users
 
 ### Contributor
 - [Deshadeeth Thisarana](https://github.com/deshadeeth-thisarana): Owner
