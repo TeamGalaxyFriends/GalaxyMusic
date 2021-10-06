@@ -425,9 +425,7 @@ async def m_cb(b, cb):
                 await callsmusic.set_stream(chet_id, queues.get(chet_id)["file"])
                 await cb.answer.reply_text("✅ <b>Skipped</b>")
                 await cb.message.edit((m_chat, qeue), reply_markup=r_ply(the_data))
-                await cb.message.reply_text(
-                    f"- Skipped track\n- Now Playing **{qeue[0][0]}**"
-                )
+                await cb.message.reply_text(f"- Skipped track\n- Now Playing **{qeue[0][0]}**")
 
     else:
         if chet_id in callsmusic.active_chats:
@@ -440,30 +438,7 @@ async def m_cb(b, cb):
             await cb.message.edit("Successfully Left the Chat!")
         else:
             await cb.answer("Chat is not connected!", show_alert=True)
-            
-    elif type_ == "mute":
-              result = callsmusic.mute(chet_id)
-              await cb.message.edit("Successfully Muted")
-            if:
-              result == 0
-            else:
-              await cb.message.edit("Chat is not connected or Already muted", show_alert=True)
-            if:
-              result == 1
-            else:
-              await cb.message.edit("Chat is not connected or Not in call", show_alert=True)
-        
-    elif type_ == "unmute":
-              result = callsmusic.unmute(chet_id)
-              await cb.message.edit("Successfully unmuted")
-            if:
-              result == 0
-            else:
-              await cb.message.edit("Chat is not connected or Not muted", show_alert=True)
-            if:
-              result == 1
-            else:
-              await message.edit("Chat is not connected or Not in call", show_alert=True)
+     
 
 
 @Client.on_message(command("play") & other_filters)
