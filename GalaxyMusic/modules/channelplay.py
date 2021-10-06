@@ -22,7 +22,6 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from GalaxyMusic.modules.play import arq, cb_admin_check, generate_cover
 from youtube_search import YoutubeSearch
 
 from GalaxyMusic.config import BOT_NAME as bn
@@ -32,6 +31,7 @@ from GalaxyMusic.config import que
 from GalaxyMusic.helpers.admins import get_administrators
 from GalaxyMusic.helpers.decorators import authorized_users_only
 from GalaxyMusic.helpers.gets import get_file_name
+from GalaxyMusic.modules.play import arq, cb_admin_check, generate_cover
 from GalaxyMusic.services.callsmusic import callsmusic
 from GalaxyMusic.services.callsmusic import client as USER
 from GalaxyMusic.services.converter.converter import convert
