@@ -38,7 +38,6 @@ from youtubesearchpython import SearchVideos
 
 from GalaxyMusic.config import DURATION_LIMIT
 
-
 @Client.on_message(filters.command("song") & ~filters.channel)
 def song(client, message):
 
