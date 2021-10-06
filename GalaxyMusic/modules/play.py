@@ -425,9 +425,7 @@ async def m_cb(b, cb):
                 await callsmusic.set_stream(chet_id, queues.get(chet_id)["file"])
                 await cb.answer.reply_text("✅ <b>Skipped</b>")
                 await cb.message.edit((m_chat, qeue), reply_markup=r_ply(the_data))
-                await cb.message.reply_text(
-                    f"- Skipped track\n- Now Playing **{qeue[0][0]}**"
-                )
+                await cb.message.reply_text(f"- Skipped track\n- Now Playing **{qeue[0][0]}**")
 
     else:
         if chet_id in callsmusic.active_chats:
@@ -440,8 +438,7 @@ async def m_cb(b, cb):
             await cb.message.edit("Successfully Left the Chat!")
         else:
             await cb.answer("Chat is not connected!", show_alert=True)
-
-
+     
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
