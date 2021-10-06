@@ -22,7 +22,7 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from ShadowMusic.modules.play import arq, cb_admin_check, generate_cover
+from GalaxyMusic.modules.play import arq, cb_admin_check, generate_cover
 from youtube_search import YoutubeSearch
 
 from GalaxyMusic.config import BOT_NAME as bn
