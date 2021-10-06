@@ -23,6 +23,24 @@ from GalaxyMusic.services.callsmusic import client as USER
 PMSET = True
 pchats = []
 
+PMPERMIT_TEXT = """
+Hi there, This is the music assistant service of @GalaxyMusicBot
+
+ ❗️ Rules:
+ - No chatting allowed
+ - No spam allowed 
+ 
+👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**
+ 
+⚠️ Disclamer: 
+If you are sending a message here it means admin will see your message and join chat
+
+ - Don't add this user to secret groups.
+ - Don't Share private info here
+
+If you have any questions please join @GalaxyFriendsTeam
+"""
+
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
@@ -31,10 +49,7 @@ async def pmPermit(client: USER, message: Message):
             chat_id = message.chat.id
             if chat_id in pchats:
                 return
-            await USER.send_message(
-                message.chat.id,
-                "Hi there, This is the music assistant service of @Mr_Shadow_robot\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n If you have any questions please join @ShadowBotUpdates",
-            )
+            await USER.send_message(message.chat.id, PMPERMIT_TEXT)
             return
 
 
